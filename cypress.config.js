@@ -5,11 +5,14 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-  watchForFileChanges: true,
+  watchForFileChanges: false,
   responseTimeout:6000,
   screenshotOnRunFailure:false,
   video:false,
-  baseUrl:'https://opensource-demo.orangehrmlive.com'
+  defaultCommandTimeout: 5000
+  //baseUrl:'https://demoqa.com/automation-practice-form'
+
+  // baseUrl:'https://opensource-demo.orangehrmlive.com'
   
   },
   
